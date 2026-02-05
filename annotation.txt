@@ -1,0 +1,26 @@
+-For create expo app:
+npx create-expo-app StickerSmash
+
+-About test 1:
+O Teste 2 foca em Formulários, Validações e Escrita de Dados (POST).
+
+Enquanto o Teste 1 foi sobre "Leitura e Performance", o Teste 2 simula uma tarefa crítica em sistemas ERP: o Cadastro de Entidades (como um novo Cliente ou Produto).
+
+O que será avaliado neste teste:
+Gerenciamento de Estado Complexo: Como você lida com múltiplos campos (Nome, CNPJ, Email, Telefone) sem criar um useState para cada um (usando um único objeto de estado).
+Manipulação de Strings (Máscaras): Implementar máscaras em tempo real (ex: o usuário digita apenas números e o campo exibe 00.000.000/0001-00).
+Validação de Formulário: Impedir o envio se os campos estiverem vazios ou se o e-mail for inválido, exibindo mensagens de erro amigáveis.
+Integração com API (POST): Simular o envio dos dados para o servidor, lidando com o estado de "Enviando..." e feedback de sucesso.
+UX de Formulário: Uso correto de tipos de teclado (numeric, email-address) e foco automático entre campos.
+O Cenário:
+Você deve criar uma tela de "Cadastro de Novo Cliente ERP".
+
+Campos obrigatórios:
+
+Razão Social (Texto)
+CNPJ (Numérico com máscara)
+E-mail Corporativo (Validação de formato)
+Como quer prosseguir?
+Quer que eu apresente a estratégia de código (como organizar o estado e as máscaras)?
+Quer que eu mande o desafio prático para você tentar montar a estrutura inicial?
+Ou quer que eu explique a teoria de validação (bibliotecas como Yup/Zod vs Validação Manual) que costumam perguntar em entrevistas Sênior?
