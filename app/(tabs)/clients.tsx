@@ -1,12 +1,11 @@
-import { StyleSheet, Text } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
-
+import { StyleSheet, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function ExploreScreen ()
 {
 	return (
 		<SafeAreaView style={styles.container}>
-			<Text>Hello explore</Text>
+			<Text style={styles.title}>Todos Clientes do ERP (teste 2)</Text>
 		</SafeAreaView>
 	);
 }
@@ -14,7 +13,16 @@ export default function ExploreScreen ()
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#949494',
-		padding: 10,
-	}
+		paddingTop: 40,
+		alignItems: "center",
+		backgroundColor: "#fff",
+		borderColor: "black",
+		borderWidth: 2,
+		borderRadius: 10,
+	},
+	title: {
+		fontSize: 20,
+		fontWeight: "bold",
+		marginBottom: 20
+	},
 });

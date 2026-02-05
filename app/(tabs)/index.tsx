@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { StyleSheet, Text, TextInput } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { useState } from "react";
+import { StyleSheet, Text, TextInput } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 interface Client {
 	name: string;
@@ -10,7 +10,7 @@ interface Client {
 
 export default function HomeScreen ()
 {
-	const [client, setClient] = useState<Client>({name: '', document: '', email: ''});
+	const [client, setClient] = useState<Client>({name: "", document: "", email: ""});
 
 	return (
 		<SafeAreaView style={styles.container}>
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		paddingTop: 40,
 		alignItems: "center",
-		backgroundColor: '#fff',
+		backgroundColor: "#fff",
 		borderColor: "black",
 		borderWidth: 2,
 		borderRadius: 10,
