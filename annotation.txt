@@ -1,8 +1,6 @@
 -For create expo app:
 npx create-expo-app StickerSmash
 
-Entendido, removi o negrito para que os asteriscos fiquem limpos e não atrapalhem a leitura. Aqui está o resumo do Teste 2:
-
 - About Test 2:
 O Teste 2 é focado em Formulários, Manipulação de Inputs e Envio de Dados (POST).
 
